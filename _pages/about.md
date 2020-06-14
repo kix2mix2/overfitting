@@ -1,6 +1,6 @@
 ---
 title: About
-subtitle: I am an independent data scientist and consultant. I've spent the last couple years in a London-based start-up delivering custom ML solutions. More recently, I have been researching automatic visualization design as part of the <a href='https://www.uni-stuttgart.de/universitaet/aktuelles/meldungen/diversity-intelligent-durch-vielfalt/visvar/'> VISUS </a>  team. 
+subtitle: I am an independent data scientist and consultant. I've spent the last couple years in a London-based start-up delivering custom ML solutions. More recently, I have been researching automatic visualization design together with the <a href='https://www.uni-stuttgart.de/universitaet/aktuelles/meldungen/diversity-intelligent-durch-vielfalt/visvar/'> VISUS </a>  team. 
 ---
 
 
