@@ -35,6 +35,7 @@ $error-color: {{ site.data.settings.color_settings.error_color }};
 
 $body-font: {{ site.data.settings.font_settings.body_font }};
 $title-font: {{ site.data.settings.font_settings.title_font }};
+$extra-font: {{ site.data.settings.font_settings.extra_font }};
 
 $regular-weight: {{ site.data.settings.font_settings.regular_weight }};
 $bold-weight: {{ site.data.settings.font_settings.bold_weight }};
@@ -163,5 +164,79 @@ $grid-spacing: {{ site.data.settings.grid_settings.grid_spacing }}px;
 
 @import "_includes/_portfolio";
 @import "_includes/_blog";
+
+
+.header__title {
+  font-family: "Permanent Marker", cursive;
+}
+
+.header__tagline{
+  font-family: $extra_font;
+}
+
+.menu__list__item__link{
+  //font-family: $body-font;
+  text-transform:uppercase;
+  line-height: 2;
+}
+
+blockquote{
+  font-family: $extra_font;
+  line-height: .5;
+  letter-spacing: -0.05;
+}
+
+
+// Animation stuff
+
+/*
+ * Animation module with all animation code
+ */
+.header__title {
+  /*
+   * Animation variables
+   */
+  $animationSteps: 100;
+  $animationDuration: 100;
+  $animationElement: span;
+  $animationElementsCount: 108;
+  $delayBetweenLetters: 0.8;
+
+  /*
+   * Elements settings
+   */
+  #{$animationElement} {
+    animation-name: anim-text-flow-keys;
+    animation-duration: #{$animationDuration}s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+  }
+
+  /*
+   * Keyframe loop
+   */
+  @keyframes anim-text-flow-keys {
+    @for $i from 0 through $animationSteps {
+      #{percentage($i * (1 / $animationSteps))} {
+        color: hsla(random(365), 100, 60, 1);
+      }
+    }
+  }
+
+  /*
+   * Element animation delay loop
+   */
+  $totalDelayTime: $animationElementsCount * $delayBetweenLetters;
+
+  @for $i from 1 through $animationElementsCount {
+    #{$animationElement}:nth-of-type(#{$i}) {
+      animation-delay: #{($i * $delayBetweenLetters) - $totalDelayTime}s;
+    }
+  }
+}
+
+
+
 
 

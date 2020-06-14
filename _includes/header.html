@@ -1,5 +1,6 @@
 <header class="header">
 
+
 	<div class="header__content">
 
 		{% if site.data.settings.header_settings.logo_image %}
@@ -8,7 +9,8 @@
 		</a>
 		{% else %}
 		<a href="{{ site.baseurl }}/" class="header__title">
-			{{ site.data.settings.basic_settings.site_title }}
+			<span class="header__title">{{ site.data.settings.basic_settings.site_title }}</span>
+
 		</a>
 		{% endif %}
 
@@ -52,4 +54,7 @@
 
 	</div>
 
+
+
 </header>
+

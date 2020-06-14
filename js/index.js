@@ -21,6 +21,7 @@
 (function ($) {
 	'use strict';
 
+	
 
 
 	// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Navigation
@@ -76,6 +77,7 @@
 		});
 
 	});
+
 
 
 	// On clicking a link
@@ -409,7 +411,11 @@
 			e.preventDefault();
 		}
 
-	});	
+	});
+
+
+
+
 	
 	
 	

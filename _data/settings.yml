@@ -1,18 +1,20 @@
 basic_settings:
-  site_title: Index
-  site_tagline: A minimal, fixed sidebar grid portfolio Jekyll theme.
-  favicon_image: /images/favicon.png
+  site_title: Cristina Morariu
+  site_tagline: Data Scientist & Researcher in ML 4 Automatic Design
+  favicon_image: /images/logo.png
 
 header_settings:
-  logo_image: 
+  logo_image:
   logo_width: 200
 
 menu_settings:
   menu_items:
     - title: 'Projects'
       url: '/'
-    - title: 'Blog'
+    - title: 'Research'
       url: '/blog/'
+    - title: 'Creative'
+      url: '/creative/'
     - title: 'About'
       url: '/about'
     - title: 'Contact'
@@ -30,8 +32,8 @@ contact_settings:
 
 social_settings:
   facebook_url: ''
-  twitter_url: ''
-  instagram_url: ''
+  twitter_url: 'https://twitter.com/kix2mix2'
+  instagram_url: 'http://instagram.com/_overfitting/'
   snapchat_url: ''
   youtube_url: ''
   google-plus_url: ''
@@ -46,7 +48,7 @@ social_settings:
   dribbble_url: ''
   behance_url: ''
   deviantart_url: ''
-  github_url: ''
+  github_url: 'https://github.com/kix2mix2'
   reddit_url: ''
   flickr_url: ''
   etsy_url: ''
@@ -54,7 +56,7 @@ social_settings:
   soundcloud_url: ''
   spotify_url: ''
   bandcamp_url: ''
-  linkedin_url: ''
+  linkedin_url: 'https://www.linkedin.com/in/morariucristina/'
 
 color_settings:
   background_color: '#ffffff'
@@ -62,7 +64,7 @@ color_settings:
   text_dark_color: '#2A2F36'
   text_medium_color: '#6C7A89'
   text_light_color: '#ABB7B7'
-  accent_color: '#0C5DF2'
+  accent_color: '#ff4aff'
   border_color: '#dddddd'
   overlay_background_color: '#0C5DF2'
   overlay_text_color: '#ffffff'
@@ -70,30 +72,32 @@ color_settings:
   error_color: '#D64541'
 
 font_settings:
-  font_embed: '<link href="https://fonts.googleapis.com/css?family=Montserrat:300,500" rel="stylesheet">'
-  title_font: '"Montserrat", sans-serif'
-  body_font: '"Montserrat", sans-serif'
+  font_embed: '<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;700;800;900&family=Permanent+Marker&family=Roboto+Mono:wght@100;300;500;700&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+'
+  title_font: '"Montserrat", sans-serif;'
+  body_font: '"Roboto", sans-serif;'
+  extra_font: '"Roboto Mono", monospace;'
   regular_weight: 300
-  bold_weight: 500
+  bold_weight: 700
   site_title:
     small_size: 25
-    medium_size: 35
-    large_size: 45
+    medium_size: 30
+    large_size: 35
     weight: 500
     letter_spacing: -0.02
   site_tagline:
     small_size: 16
     medium_size: 18
     large_size: 20
-    weight: 300
-    letter_spacing: 0
-    line_height: 1.5
+    weight: 100
+    letter_spacing: -0.02
+    line_height: -0.2
   menu:
     small_size: 30
     medium_size: 15
-    large_size: 16
-    weight: 500
-    letter_spacing: 0
+    large_size: 18
+    weight: 900
+    letter_spacing: 2
   grid_item_title:
     small_size: 22
     medium_size: 26
@@ -110,14 +114,14 @@ font_settings:
     small_size: 25
     medium_size: 35
     large_size: 45
-    weight: 500
+    weight: 700
     letter_spacing: -0.02
     line_height: 1.2
   h2:
     small_size: 22
     medium_size: 30
     large_size: 35
-    weight: 500
+    weight: 700
     letter_spacing: -0.02
     line_height: 1.2
   h3:
@@ -151,10 +155,10 @@ font_settings:
   p:
     small_size: 16
     medium_size: 18
-    large_size: 20
+    large_size: 18
     weight: 300
     letter_spacing: 0
-    line_height: 1.6
+    line_height: 1.2
   blockquote:
     small_size: 25
     medium_size: 35
