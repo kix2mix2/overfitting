@@ -22,11 +22,11 @@ $text-dark-color: {{ site.data.settings.color_settings.text_dark_color }};
 $text-medium-color: {{ site.data.settings.color_settings.text_medium_color }};
 $text-light-color: {{ site.data.settings.color_settings.text_light_color }};
 
-$accent-color: {{ site.data.settings.color_settings.accent_color }};
+$accent-color: linear-gradient(90deg, rgba(82,250,255,1) 0%, rgba(252,69,222,1) 100%);
 
 $overlay-background-color: {{ site.data.settings.color_settings.overlay_background_color }};
 $overlay-text-color: {{ site.data.settings.color_settings.overlay_text_color }};
-$overlay-accent-color: {{ site.data.settings.color_settings.overlay_accent_color }};
+$overlay-accent-color: linear-gradient(90deg, rgba(82,250,255,1) 0%, rgba(252,69,222,1) 100%);;
 
 $error-color: {{ site.data.settings.color_settings.error_color }};
 
@@ -196,10 +196,10 @@ blockquote{
   /*
    * Animation variables
    */
-  $animationSteps: 100;
+  $animationSteps: 10;
   $animationDuration: 100;
   $animationElement: span;
-  $animationElementsCount: 108;
+  $animationElementsCount: 18;
   $delayBetweenLetters: 0.8;
 
   /*
