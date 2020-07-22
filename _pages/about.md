@@ -1,6 +1,6 @@
 ---
 title: About
-subtitle: I am a Machine Learning Researcher interested in interdisciplinary applications of ML. I've spent the last couple years in a London-based start-up delivering custom ML solutions for predictive maintenance and predictive policing. More recently, I have been researching automatic visualization design together with the <a href='https://www.uni-stuttgart.de/universitaet/aktuelles/meldungen/diversity-intelligent-durch-vielfalt/visvar/'> VISUS </a>  team. 
+subtitle: I am a Machine Learning Researcher interested in interdisciplinary applications of ML. I've spent the last couple years in a <a href='https://www.decisionlab.co.uk/'> London-based start-up </a> delivering custom ML solutions for predictive maintenance and predictive policing. More recently, I have been researching automatic visualization design together with the <a href='https://www.uni-stuttgart.de/en/university/news/all/diversity---intelligent-durch-vielfalt/visvar/'> VISUS </a>  team. 
 ---
 
 ## ML Interests
@@ -14,7 +14,8 @@ Here are my favorite topics in ML:
 
 <br>
 
-<img src="/images/logo.png"  width="200"  style = "border-radius: 50%; float:right; margin-left:50px; margin-right:17%; margin-top: 20px; ">
+<img src="/images/yellow.png"  width="200"  style = "border-radius: 50%; float:right; margin-left:50px; margin-right:17%; margin-top: 20px; ">
+
 ## Applications
 
 I have worked in these particular areas before:

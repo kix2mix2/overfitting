@@ -1,6 +1,6 @@
 basic_settings:
   site_title: Cristina Morariu
-  site_tagline: Data Scientist + Researcher in ML for Automatic Design
+  site_tagline: ML Researcher +  Data Science Consultant
   favicon_image: /images/logo.png
 
 header_settings:
@@ -11,14 +11,14 @@ menu_settings:
   menu_items:
     - title: 'Projects'
       url: '/'
-    - title: 'Research'
-      url: '/blog/'
-    - title: 'Creative'
-      url: '/creative/'
+#    - title: 'Research'
+#      url: '/blog/'
+    - title: 'Illustrations'
+      url: '/illustrations/'
     - title: 'About'
-      url: '/about'
-    - title: 'Contact'
-      url: '/contact'
+      url: '/about/'
+#    - title: 'Contact'
+#      url: '/contact'
 
 grid_settings:
   overlay_opacity: 0.8
