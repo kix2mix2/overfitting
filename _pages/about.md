@@ -5,7 +5,7 @@ subtitle: I am a Machine Learning Researcher interested in interdisciplinary app
 
 ## ML Interests
 
-<img src="/images/cristina_1.jpeg" width="200"  style = "border-radius: 50%; float:right; margin-left:50px; margin-right:17%; margin-bottom: 10px;">
+<img src="/images/cristina_1.jpeg" width="20%"  style = "border-radius: 50%; float:right; margin-left:50px; margin-right:17%; margin-bottom: 10px;">
 
 Here are my favorite topics in ML:
 * Representation Learning (Disentangled representations & Variational Autoencoders)
@@ -14,7 +14,7 @@ Here are my favorite topics in ML:
 
 <br>
 
-<img src="/images/yellow.png"  width="200"  style = "border-radius: 50%; float:right; margin-left:50px; margin-right:17%; margin-top: 20px; ">
+<img src="/images/yellow.png"  width="20%"  style = "border-radius: 50%; float:right; margin-left:50px; margin-right:17%; margin-top: 20px; ">
 
 ## Applications
 
